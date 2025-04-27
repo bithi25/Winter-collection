@@ -11,11 +11,16 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet"
   href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 </head>
 <body>
     <header>
-        <a href="#" class="logo"><img src="./image/logo.png" alt=""></a>
+        <a href="#" class="logo animate__animated animate__flash" ><img src="./image/logo.png" alt=""></a>
+        <!-- <h1 class="animate__animated animate__flash">An animated element</h1> -->
 
         <ul class="navmenu">
             <li><a href="#">Home</a></li>
@@ -32,7 +37,7 @@
         </div>
     </header>
     <section class="main-home">
-        <div class="main-text">
+        <div class="main-text"  data-aos="fade-up">
             <h5>winter Collection</h5>
             <h1>New Winter <br> Collection 2025</h1>
             <p>There's Nothing like Trend</p>
@@ -210,7 +215,7 @@
         </section>
 
         <!-- clint-review-center -->
-         <section class="client-reviews">
+         <section class="client-reviews" data-aos="flip-left">
             <div class="reviews">
                 <h3>Client Reviews</h3>
                 <img src="./image/clint image.jpg" alt="">
@@ -230,7 +235,7 @@
                 <h2>New Updates</h2>
             </div>
             <div class="update-cart">
-                <div class="cart">
+                <div class="cart"  data-aos="flip-left">
                     <img src="./image/bl-1.png" alt="">
                     <h5>26 jan 2025</h5>
                     <h4>Lets start bring sale on this Summer vacation.</h4>
@@ -239,7 +244,7 @@
                          accusantium voluptas! Esse vel eaque dolores pariatur.</p>
                          <h6>Continue Reading..</h6>
                 </div>
-                <div class="cart">
+                <div class="cart"  data-aos="flip-left">
                     <img src="./image/bl-2.png" alt="">
                     <h5>26 jan 2025</h5>
                     <h4>Lets start bring sale on this Summer vacation.</h4>
@@ -248,7 +253,7 @@
                          accusantium voluptas! Esse vel eaque dolores pariatur.</p>
                          <h6>Continue Reading..</h6>
                 </div>
-                <div class="cart">
+                <div class="cart"  data-aos="flip-left">
                     <img src="./image/bl-3.png" alt="">
                     <h5>26 jan 2025</h5>
                     <h4>Lets start bring sale on this Summer vacation.</h4>
@@ -315,9 +320,8 @@
            <div class="end-text">
             <p>copyright # @2025.all rights reserved. designed by Bithi Bhowmik</p>
            </div>
-
-
-
+           
+           <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
          <script src="java.js"></script>
 
